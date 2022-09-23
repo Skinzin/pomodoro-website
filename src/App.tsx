@@ -1,4 +1,5 @@
 import { Avatar } from './components/avatar'
+import { Clock } from './components/clock'
 import './style/main.css'
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
             </div>
           </div>
         </div>
+
+
+        <Clock />
       </div>
     </div>
   )
