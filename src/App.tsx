@@ -5,7 +5,7 @@ import './style/main.css'
 function App() {
   return (
     <div className='flex justify-center items-center h-[100vh]'>
-      <div className='bg-opacity-30 bg-slate-400 shadow-lg max-w-lg rounded-xl p-4'>
+      <div className='bg-opacity-30 bg-slate-400 shadow-lg max-w-lg rounded-xl p-4 relative'>
         <div>
           <div className='flex items-center'>
             <Avatar avatar='https://github.com/Skinzin.png'/>
